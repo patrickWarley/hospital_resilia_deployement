@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/patrickWarley/hospital_resilia.git
+[submodule "server"]
+	path = server
+	url = https://github.com/patrickWarley/api_hospital_resilia.git
