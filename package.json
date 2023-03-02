@@ -1,0 +1,25 @@
+{
+  "name": "hospital_resilia_deployement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd server && npm install && cd .. && cd client && npm install && npm run build",
+    "start" : "node server/indexdeploy.js"
+  },
+  "engines":{
+    "node":"16.*"
+  },
+  "repository": { 
+    "type": "git",
+    "url": "git+https://github.com/patrickWarley/hospital_resilia_deployement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickWarley/hospital_resilia_deployement/issues"
+  },
+  "homepage": "https://github.com/patrickWarley/hospital_resilia_deployement#readme"
+}
