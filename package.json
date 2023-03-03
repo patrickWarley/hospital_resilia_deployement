@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd server && npm install && cd .. && cd client && npm install && npm run build",
-    "start" : "node server/indexdeploy.js"
+    "start": "node server/indexdeploy.js",
+    "dev": "nodemon server/indexdeploy.js"
   },
-  "engines":{
-    "node":"16.*"
+  "engines": {
+    "node": "16.*"
   },
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/patrickWarley/hospital_resilia_deployement.git"
   },
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/patrickWarley/hospital_resilia_deployement/issues"
   },
-  "homepage": "https://github.com/patrickWarley/hospital_resilia_deployement#readme"
+  "homepage": "https://github.com/patrickWarley/hospital_resilia_deployement#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }
