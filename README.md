@@ -7,7 +7,8 @@
 <p> MYSQL: Installar o XAMPP, Abrir o phpmyadmin, Importar o arquivo hospital_resilia-BD.sql Em seguida o NODE JS: Entrar na raiz do projeto, npm install, npm run start.</p> </br>
 
 <h2>📍 Como executar o projeto?</h2>
-<p> Iniciar o servidor Apache e MYSQL no XAMPP e usar o comando "npm run start" no terminal a partir da raiz do projeto </p> </br>
+<p> Iniciar o servidor Apache e MYSQL no XAMP, criar o banco de dados e as tabelas usando o arquivo dentro da pasta "SQL"</p>
+<p> Usar "npm run build" e depois "npm run dev"
 
 <h2>📍 Quais são as rotas possíveis?</h2>
 <p> As rotas são medicos, exames, medicamentos, pacientes, unidades e consulta. </p> </br>
